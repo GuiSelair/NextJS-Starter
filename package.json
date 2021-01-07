@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "debug": "json-server -p 3005 --watch server.json"
   },
   "dependencies": {
     "next": "10.0.3",
@@ -18,6 +19,7 @@
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.4",
     "babel-plugin-styled-components": "^1.12.0",
+    "json-server": "^0.16.3",
     "typescript": "^4.1.2"
   }
 }
